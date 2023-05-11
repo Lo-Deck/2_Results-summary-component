@@ -81,13 +81,15 @@ h3{
     height:12rem;
     border-radius: 50%;
     margin: auto; 
-    position: relative;   
+    /*position: relative;*/
+    display: grid;
+    place-items: center;    
 }
 
 .mainscore p{
     margin:0;
-    position: absolute;
-    top: 2rem;
+    /*position: absolute;
+    top: 2rem;*/
     color:  hsl(241, 100%, 79%); 
 }
 
@@ -245,8 +247,8 @@ button:hover{
 
     .mainscore p{
         margin:0;
-        position: absolute;
-        top: 3.2rem; 
+       /* position: absolute;
+        top: 3.2rem; */
     }
 
     .mainscore p::first-line{
